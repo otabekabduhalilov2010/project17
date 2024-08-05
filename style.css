@@ -245,3 +245,84 @@ p {
 .footer-wrap {
     
 }
+
+
+
+.header3 {
+    
+    background-image: url(./img/bg3.jpg);
+}
+
+.contact-title {
+    font-size: 80px;
+    text-align: center;
+    padding-top: 40px;
+    @media (max-width: 700px) {
+       font-size: 60px;
+    }
+}
+
+.header4 {
+    background-image: none;
+    background-color: #14274A;
+    padding-bottom: 150px;
+}
+
+.wrap41 {
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: 1111px) {
+        flex-direction: column;
+    }
+}
+
+
+.box41{
+
+    padding-bottom: 150px;
+    h2 {
+        font-size: 60px;
+        @media (max-width: 500px) {
+            font-size: 45px;;
+        }
+    }
+
+    p {
+        font-size: 30px;
+    }
+}
+
+.section41 {
+    padding-bottom: 150px;
+    padding-top: 250px;
+}
+
+.box42 {
+    font-size: 40px ;
+    @media (max-width: 600px) {
+        font-size: 30px;;
+    }
+    
+}
+
+.form4 {
+    input, textarea {
+        padding: 20px;
+        width: 550px;
+        margin-bottom: 30px;
+
+        @media (max-width: 650px) {
+            width: 400px;
+        }
+
+        @media (max-width: 550px) {
+            width: 300px;
+        }   
+    }
+
+    p {
+        font-size: 25px;
+      
+    }
+}
